@@ -1,0 +1,1533 @@
+<?xml version="1.0" ?>
+<type_data>
+  <type_combination elem1="NORMAL" elem2="NONE">
+    <vulnerability>
+      <type name="FIGHTING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="FIGHTING">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="FLYING">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="POISON">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="GROUND">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="ROCK">
+    <vulnerability>
+      <type name="FIGHTING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="BUG">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="GHOST">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="STEEL">
+    <vulnerability>
+      <type name="FIGHTING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="FIRE">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="WATER">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="GRASS">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="ELECTRIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="ICE">
+    <vulnerability>
+      <type name="FIGHTING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="DRAGON">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="DARK">
+    <vulnerability>
+      <type name="FIGHTING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="NORMAL" elem2="FAIRY">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GHOST"/>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="NONE">
+    <vulnerability>
+      <type name="FLYING"/>
+      <type name="PSYCHIC"/>
+      <type name="FAIRY"/>
+    </vulnerability>
+    <resistence>
+      <type name="ROCK"/>
+      <type name="BUG"/>
+      <type name="DARK"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="FLYING">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="POISON">
+    <vulnerability>
+      <type name="PSYCHIC"/>
+    </vulnerability>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="GROUND">
+    <vulnerability/>
+    <resistence>
+      <type name="ROCK"/>
+    </resistence>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="ROCK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="BUG">
+    <vulnerability>
+      <type name="FLYING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="GHOST">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="STEEL">
+    <vulnerability/>
+    <resistence>
+      <type name="ROCK"/>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="FIRE">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="WATER">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="GRASS">
+    <vulnerability>
+      <type name="FLYING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="ELECTRIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="ICE">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="DRAGON">
+    <vulnerability>
+      <type name="FAIRY"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="DARK">
+    <vulnerability>
+      <type name="FAIRY"/>
+    </vulnerability>
+    <resistence>
+      <type name="DARK"/>
+    </resistence>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FIGHTING" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+      <type name="DARK"/>
+    </resistence>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="NONE">
+    <vulnerability>
+      <type name="ROCK"/>
+      <type name="ELECTRIC"/>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="BUG"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="POISON">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="BUG"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="GROUND">
+    <vulnerability>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="GROUND"/>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="ROCK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="BUG">
+    <vulnerability>
+      <type name="ROCK"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="GHOST">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="STEEL">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="FIRE">
+    <vulnerability>
+      <type name="ROCK"/>
+    </vulnerability>
+    <resistence>
+      <type name="BUG"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="WATER">
+    <vulnerability>
+      <type name="ELECTRIC"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="GRASS">
+    <vulnerability>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="ELECTRIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="ICE">
+    <vulnerability>
+      <type name="ROCK"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="DRAGON">
+    <vulnerability>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="DARK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="GROUND"/>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FLYING" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="GROUND"/>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="NONE">
+    <vulnerability>
+      <type name="GROUND"/>
+      <type name="PSYCHIC"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="POISON"/>
+      <type name="BUG"/>
+      <type name="GRASS"/>
+      <type name="FAIRY"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="GROUND">
+    <vulnerability/>
+    <resistence>
+      <type name="POISON"/>
+    </resistence>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="ROCK">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="POISON"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="BUG">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="GHOST">
+    <vulnerability/>
+    <resistence>
+      <type name="POISON"/>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="STEEL">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="BUG"/>
+      <type name="GRASS"/>
+      <type name="FAIRY"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="FIRE">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="BUG"/>
+      <type name="GRASS"/>
+      <type name="FAIRY"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="WATER">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="GRASS">
+    <vulnerability/>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="ELECTRIC">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="ICE">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="DRAGON">
+    <vulnerability/>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="DARK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="POISON" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="NONE">
+    <vulnerability>
+      <type name="WATER"/>
+      <type name="GRASS"/>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence>
+      <type name="POISON"/>
+      <type name="ROCK"/>
+    </resistence>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="ROCK">
+    <vulnerability>
+      <type name="WATER"/>
+      <type name="GRASS"/>
+    </vulnerability>
+    <resistence>
+      <type name="POISON"/>
+    </resistence>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="BUG">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="GHOST">
+    <vulnerability/>
+    <resistence>
+      <type name="POISON"/>
+    </resistence>
+    <inmunity>
+      <type name="ELECTRIC"/>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="STEEL">
+    <vulnerability/>
+    <resistence>
+      <type name="ROCK"/>
+    </resistence>
+    <inmunity>
+      <type name="ELECTRIC"/>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="FIRE">
+    <vulnerability>
+      <type name="WATER"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="WATER">
+    <vulnerability>
+      <type name="GRASS"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="GRASS">
+    <vulnerability>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="ELECTRIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="ICE">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="DRAGON">
+    <vulnerability>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="DARK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GROUND" elem2="FAIRY">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="ELECTRIC"/>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="NONE">
+    <vulnerability>
+      <type name="FIGHTING"/>
+      <type name="GROUND"/>
+      <type name="STEEL"/>
+      <type name="WATER"/>
+      <type name="GRASS"/>
+    </vulnerability>
+    <resistence>
+      <type name="NORMAL"/>
+      <type name="FLYING"/>
+      <type name="POISON"/>
+      <type name="FIRE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="BUG">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="GHOST">
+    <vulnerability/>
+    <resistence>
+      <type name="POISON"/>
+    </resistence>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="STEEL">
+    <vulnerability>
+      <type name="FIGHTING"/>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="NORMAL"/>
+      <type name="FLYING"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="FIRE">
+    <vulnerability>
+      <type name="GROUND"/>
+      <type name="WATER"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIRE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="WATER">
+    <vulnerability>
+      <type name="GRASS"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIRE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="GRASS">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="ELECTRIC">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="FLYING"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="ICE">
+    <vulnerability>
+      <type name="FIGHTING"/>
+      <type name="STEEL"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="DRAGON">
+    <vulnerability/>
+    <resistence>
+      <type name="FIRE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="DARK">
+    <vulnerability>
+      <type name="FIGHTING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="ROCK" elem2="FAIRY">
+    <vulnerability>
+      <type name="STEEL"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="NONE">
+    <vulnerability>
+      <type name="FLYING"/>
+      <type name="ROCK"/>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="GROUND"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="GHOST">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="STEEL">
+    <vulnerability>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="FIRE">
+    <vulnerability>
+      <type name="ROCK"/>
+    </vulnerability>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="WATER">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="GRASS">
+    <vulnerability>
+      <type name="FLYING"/>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence>
+      <type name="GROUND"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="ELECTRIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="ICE">
+    <vulnerability>
+      <type name="ROCK"/>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="DRAGON">
+    <vulnerability/>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="DARK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="BUG" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+    </resistence>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="NONE">
+    <vulnerability>
+      <type name="GHOST"/>
+      <type name="DARK"/>
+    </vulnerability>
+    <resistence>
+      <type name="POISON"/>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="STEEL">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="FIRE">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="WATER">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="GRASS">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="ELECTRIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="PSYCHIC">
+    <vulnerability>
+      <type name="GHOST"/>
+      <type name="DARK"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="ICE">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="DRAGON">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="DARK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GHOST" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="NORMAL"/>
+      <type name="FIGHTING"/>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="NONE">
+    <vulnerability>
+      <type name="FIGHTING"/>
+      <type name="GROUND"/>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence>
+      <type name="NORMAL"/>
+      <type name="FLYING"/>
+      <type name="ROCK"/>
+      <type name="BUG"/>
+      <type name="STEEL"/>
+      <type name="GRASS"/>
+      <type name="PSYCHIC"/>
+      <type name="ICE"/>
+      <type name="DRAGON"/>
+      <type name="FAIRY"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="FIRE">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="BUG"/>
+      <type name="STEEL"/>
+      <type name="GRASS"/>
+      <type name="ICE"/>
+      <type name="FAIRY"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="WATER">
+    <vulnerability/>
+    <resistence>
+      <type name="STEEL"/>
+      <type name="ICE"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="GRASS">
+    <vulnerability>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="ELECTRIC">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="FLYING"/>
+      <type name="STEEL"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence>
+      <type name="PSYCHIC"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="ICE">
+    <vulnerability>
+      <type name="FIGHTING"/>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence>
+      <type name="ICE"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="DRAGON">
+    <vulnerability/>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="DARK">
+    <vulnerability>
+      <type name="FIGHTING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="POISON"/>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="STEEL" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="POISON"/>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="NONE">
+    <vulnerability>
+      <type name="GROUND"/>
+      <type name="ROCK"/>
+      <type name="WATER"/>
+    </vulnerability>
+    <resistence>
+      <type name="BUG"/>
+      <type name="STEEL"/>
+      <type name="FIRE"/>
+      <type name="GRASS"/>
+      <type name="ICE"/>
+      <type name="FAIRY"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="WATER">
+    <vulnerability/>
+    <resistence>
+      <type name="STEEL"/>
+      <type name="FIRE"/>
+      <type name="ICE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="GRASS">
+    <vulnerability/>
+    <resistence>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="ELECTRIC">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="STEEL"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="ICE">
+    <vulnerability>
+      <type name="ROCK"/>
+    </vulnerability>
+    <resistence>
+      <type name="ICE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="DRAGON">
+    <vulnerability/>
+    <resistence>
+      <type name="FIRE"/>
+      <type name="GRASS"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="DARK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FIRE" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="BUG"/>
+    </resistence>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="WATER" elem2="NONE">
+    <vulnerability>
+      <type name="GRASS"/>
+      <type name="ELECTRIC"/>
+    </vulnerability>
+    <resistence>
+      <type name="STEEL"/>
+      <type name="FIRE"/>
+      <type name="WATER"/>
+      <type name="ICE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="WATER" elem2="GRASS">
+    <vulnerability/>
+    <resistence>
+      <type name="WATER"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="WATER" elem2="ELECTRIC">
+    <vulnerability/>
+    <resistence>
+      <type name="STEEL"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="WATER" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="WATER" elem2="ICE">
+    <vulnerability/>
+    <resistence>
+      <type name="ICE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="WATER" elem2="DRAGON">
+    <vulnerability/>
+    <resistence>
+      <type name="FIRE"/>
+      <type name="WATER"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="WATER" elem2="DARK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="WATER" elem2="FAIRY">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GRASS" elem2="NONE">
+    <vulnerability>
+      <type name="FLYING"/>
+      <type name="POISON"/>
+      <type name="BUG"/>
+      <type name="FIRE"/>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence>
+      <type name="GROUND"/>
+      <type name="WATER"/>
+      <type name="GRASS"/>
+      <type name="ELECTRIC"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="GRASS" elem2="ELECTRIC">
+    <vulnerability/>
+    <resistence>
+      <type name="ELECTRIC"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="GRASS" elem2="PSYCHIC">
+    <vulnerability>
+      <type name="BUG"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="GRASS" elem2="ICE">
+    <vulnerability>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="GRASS" elem2="DRAGON">
+    <vulnerability>
+      <type name="ICE"/>
+    </vulnerability>
+    <resistence>
+      <type name="WATER"/>
+      <type name="GRASS"/>
+      <type name="ELECTRIC"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="GRASS" elem2="DARK">
+    <vulnerability>
+      <type name="BUG"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="GRASS" elem2="FAIRY">
+    <vulnerability>
+      <type name="POISON"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="ELECTRIC" elem2="NONE">
+    <vulnerability>
+      <type name="GROUND"/>
+    </vulnerability>
+    <resistence>
+      <type name="FLYING"/>
+      <type name="STEEL"/>
+      <type name="ELECTRIC"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ELECTRIC" elem2="PSYCHIC">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ELECTRIC" elem2="ICE">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ELECTRIC" elem2="DRAGON">
+    <vulnerability/>
+    <resistence>
+      <type name="ELECTRIC"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ELECTRIC" elem2="DARK">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="ELECTRIC" elem2="FAIRY">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="PSYCHIC" elem2="NONE">
+    <vulnerability>
+      <type name="BUG"/>
+      <type name="GHOST"/>
+      <type name="DARK"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="PSYCHIC"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="PSYCHIC" elem2="ICE">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="PSYCHIC" elem2="DRAGON">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="PSYCHIC" elem2="DARK">
+    <vulnerability>
+      <type name="BUG"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="PSYCHIC" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="FIGHTING"/>
+    </resistence>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="ICE" elem2="NONE">
+    <vulnerability>
+      <type name="FIGHTING"/>
+      <type name="ROCK"/>
+      <type name="STEEL"/>
+      <type name="FIRE"/>
+    </vulnerability>
+    <resistence>
+      <type name="ICE"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ICE" elem2="DRAGON">
+    <vulnerability/>
+    <resistence/>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="ICE" elem2="DARK">
+    <vulnerability>
+      <type name="FIGHTING"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="ICE" elem2="FAIRY">
+    <vulnerability>
+      <type name="STEEL"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="DRAGON" elem2="NONE">
+    <vulnerability>
+      <type name="ICE"/>
+      <type name="DRAGON"/>
+      <type name="FAIRY"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIRE"/>
+      <type name="WATER"/>
+      <type name="GRASS"/>
+      <type name="ELECTRIC"/>
+    </resistence>
+    <inmunity/>
+  </type_combination>
+  <type_combination elem1="DRAGON" elem2="DARK">
+    <vulnerability>
+      <type name="FAIRY"/>
+    </vulnerability>
+    <resistence/>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="DRAGON" elem2="FAIRY">
+    <vulnerability/>
+    <resistence/>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="DARK" elem2="NONE">
+    <vulnerability>
+      <type name="FIGHTING"/>
+      <type name="BUG"/>
+      <type name="FAIRY"/>
+    </vulnerability>
+    <resistence>
+      <type name="GHOST"/>
+      <type name="DARK"/>
+    </resistence>
+    <inmunity>
+      <type name="PSYCHIC"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="DARK" elem2="FAIRY">
+    <vulnerability/>
+    <resistence>
+      <type name="DARK"/>
+    </resistence>
+    <inmunity>
+      <type name="PSYCHIC"/>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+  <type_combination elem1="FAIRY" elem2="NONE">
+    <vulnerability>
+      <type name="POISON"/>
+      <type name="STEEL"/>
+    </vulnerability>
+    <resistence>
+      <type name="FIGHTING"/>
+      <type name="BUG"/>
+      <type name="DARK"/>
+    </resistence>
+    <inmunity>
+      <type name="DRAGON"/>
+    </inmunity>
+  </type_combination>
+</type_data>

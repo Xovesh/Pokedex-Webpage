@@ -1,0 +1,32 @@
+<!ELEMENT pokemons (generacion)*>
+        <!ATTLIST pokemons last_id CDATA #REQUIRED last_gen CDATA #REQUIRED>
+        <!ELEMENT generacion (pokemon)*>
+        <!ATTLIST generacion id CDATA #REQUIRED>
+        <!ELEMENT pokemon (pokedex_number, generation, legendary, name, jp_name, picture_local, picture_web, weight_kg, height_m, male_percentage, type1, type2, classification, capture_rate, base_egg_steps, abilities, experience_growth, base_happiness, hp, attack, defense, sp_attack, sp_defense, speed, base_total)>
+        <!ATTLIST pokemon id CDATA #REQUIRED>
+        <!ELEMENT pokedex_number (#PCDATA)>
+        <!ELEMENT generation (#PCDATA)>
+        <!ELEMENT legendary (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT jp_name (#PCDATA)>
+        <!ELEMENT picture_local (#PCDATA)>
+        <!ELEMENT picture_web (#PCDATA)>
+        <!ELEMENT weight_kg (#PCDATA)>
+        <!ELEMENT height_m (#PCDATA)>
+        <!ELEMENT male_percentage (#PCDATA)>
+        <!ELEMENT type1 (#PCDATA)>
+        <!ELEMENT type2 (#PCDATA)>
+        <!ELEMENT classification (#PCDATA)>
+        <!ELEMENT capture_rate (#PCDATA)>
+        <!ELEMENT base_egg_steps (#PCDATA)>
+        <!ELEMENT abilities (#PCDATA)>
+        <!ELEMENT experience_growth (#PCDATA)>
+        <!ELEMENT base_happiness (#PCDATA)>
+        <!ELEMENT hp (#PCDATA)>
+        <!ELEMENT attack (#PCDATA)>
+        <!ELEMENT defense (#PCDATA)>
+        <!ELEMENT sp_attack (#PCDATA)>
+        <!ELEMENT sp_defense (#PCDATA)>
+        <!ELEMENT speed (#PCDATA)>
+        <!ELEMENT base_total (#PCDATA)>
+

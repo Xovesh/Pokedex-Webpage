@@ -1,0 +1,21 @@
+
+body {
+    background: #292b2c;
+    /*background: #f0f0f0;#BFD4EF#CDCDCD#292b2c#f7f7f7*/
+}
+
+/*padding*/
+
+.pad{
+    padding: 1%;
+}
+.top{
+    margin-top: 1%;
+}
+
+.pokedex_picture{
+    width: 100%;
+    max-width: 128px;
+    height: 100%;
+    max-height: 128px;
+}

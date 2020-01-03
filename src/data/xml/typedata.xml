@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<type_data>
+  <type color="A8A77A" name="NORMAL"/>
+  <type color="C22E28" name="FIGHTING"/>
+  <type color="A98FF3" name="FLYING"/>
+  <type color="A33EA1" name="POISON"/>
+  <type color="E2BF65" name="GROUND"/>
+  <type color="B6A136" name="ROCK"/>
+  <type color="A6B91A" name="BUG"/>
+  <type color="735797" name="GHOST"/>
+  <type color="B7B7CE" name="STEEL"/>
+  <type color="EE8130" name="FIRE"/>
+  <type color="6390F0" name="WATER"/>
+  <type color="7AC74C" name="GRASS"/>
+  <type color="F7D02C" name="ELECTRIC"/>
+  <type color="F95587" name="PSYCHIC"/>
+  <type color="96D9D6" name="ICE"/>
+  <type color="6F35FC" name="DRAGON"/>
+  <type color="705746" name="DARK"/>
+  <type color="D685AD" name="FAIRY"/>
+</type_data>

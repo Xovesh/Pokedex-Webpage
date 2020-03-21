@@ -3,7 +3,7 @@
 include 'DbConfig.php';
 $mysqli = mysqli_connect($dbserver,$dbuser,$dbpass,$db);
 
-session_start();
+//session_start();
 echo '<script src="../../js/addfavpoke.js"></script>';
 echo' <script>
 function test(){

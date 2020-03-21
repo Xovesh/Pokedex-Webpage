@@ -1,5 +1,5 @@
 <?php   
-    include '../gettypecolor.php';
+    //include '../gettypecolor.php';
     include 'DbConfig.php';
     echo '<hr>';
     if(isset($_SESSION['user'])){

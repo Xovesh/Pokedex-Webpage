@@ -1,5 +1,5 @@
 <?php
-		session_start(); 
+		//session_start(); 
                 include('./phpscripts/other/DbConfig.php');
                 $mysqli = mysqli_connect($dbserver,$dbuser,$dbpass,$db);
                 if(!$mysqli){
